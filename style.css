@@ -21,12 +21,33 @@
     background-color: #FCF6F5;
 }
 
+#header {
+    border: 1px black solid;
+    margin: 4rem;
+    padding: 2rem;
+    background-color: #FCF6F5;
+    box-shadow: 10px -10px black;
+}
+
+#counter {
+    font-size: 40px;
+    font-weight: 700;
+    border: 1px solid black;
+    padding: 2rem;
+    background-color: #2BAE66;
+    box-shadow: 10px -10px black;
+}
+
 button {
     width: 80%;
-    height: 10%;
+    height: 20%;
     box-shadow: 5px -5px black;
     font-size: xx-large;
     background-color: #2BAE66;
+}
+
+button:hover {
+opacity: .80;
 }
 
 
